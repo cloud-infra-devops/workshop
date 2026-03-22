@@ -1,3 +1,4 @@
+# https://catalog.workshops.aws/event/dashboard/en-US/workshop/10-setup
 # Workshop UI Package
 
 This package contains the pre-built UI components for the "Everyday Productivity Accelerators" workshop.
@@ -13,7 +14,7 @@ This package contains the pre-built UI components for the "Everyday Productivity
 2. **Backend Setup:**
    ```bash
    cd backend
-   python -m venv venv
+   python -m .venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
    ```
